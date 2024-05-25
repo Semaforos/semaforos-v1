@@ -1,6 +1,7 @@
 module co.edu.uptc.semaforos {
     requires javafx.controls;
     requires javafx.fxml;
+    requires static lombok;
 
 
     opens co.edu.uptc.semaforos to javafx.fxml;
